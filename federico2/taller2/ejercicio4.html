@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 - Lista Empleados</title>
+</head>
+<body>
+    <header>
+        <h1>Registro de Empleados</h1>
+        <a href="index.html">Volver al Menú</a>
+    </header>
+    <main>
+        <input type="text" id="codigo" placeholder="Código">
+        <input type="text" id="nombre" placeholder="Nombre">
+        <button onclick="agregarEmpleado()">Agregar Empleado</button>
+        
+        <table id="tablaEmpleados" border="1">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <script src="funciones.js"></script>
+</body>
+</html>
